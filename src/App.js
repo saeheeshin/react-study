@@ -1,10 +1,16 @@
-import "./styles.css";
+import "./styles.scss";
 
 export default function App() {
+  const fName = "david";
+  const lName = "shin";
+  const copyrightDate = new Date().getFullYear();
+
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>
+        Created By: {fName} {lName}
+      </h1>
+      <p>Copyright: {copyrightDate}</p>
     </div>
   );
 }
