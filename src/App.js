@@ -1,12 +1,14 @@
 import "./styles.scss";
-import Heading from "../src/Heading";
-import MyList from "../src/List";
+import Header from "./component/Header";
+import Note from "./component/Note";
+import Footer from "./component/Footer";
 
 export default function App() {
   return (
     <div className="App">
-      <Heading name="David" />
-      <MyList />
+      <Header />
+      <Note />
+      <Footer />
     </div>
   );
 }
